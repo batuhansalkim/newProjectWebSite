@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 62.5%;
+}
+body,h1,h2{
+    margin: 0;
+    padding: 0;
+}
+.arkaplan{
+    background-color: #25373D;
+}
+.kapsayici{
+    width: 960px;
+    margin: 0 auto;
+}
+.ust{
+    min-height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.ust .logo{
+    text-align: center;
+    color: #fff;
+}
+.ust .logo h1{
+    font-size: 4rem;
+    letter-spacing: .5rem;
+}
+.ust .logo h2{
+    font-size: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+body{
+    
+    padding: 0px;
+    margin: 0px;
+    background: #373b44;
+    background: -webkit-linear-gradient(
+        to right,
+        #4286f4,
+        #373b44
+    );
+    background: linear-gradient(
+        to right,
+        #4286f4,
+        #373b44
+    );
+}
+.par{
+    background-repeat: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.par-1{
+    background-image: url(photo.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.par-2{
+    background-image: url(foto1.jpg);
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.par-3{
+    background-image: url(foto2.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.yazi{
+    position:absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.kenarlik{
+    background-color: white;
+    letter-spacing: 5px;
+    border: 3px solid black;
+    font-size:24px;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+.kutular{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.kutu{
+    height: 300px;
+    width: 25%;
+    background-color: oldlace;
+    margin: 30px 10px;
+}
+
+
+
+

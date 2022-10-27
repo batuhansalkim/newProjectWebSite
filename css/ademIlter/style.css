@@ -1,0 +1,114 @@
+:root{
+--max-width:1200px;
+--gutter:20px;
+--color-navy:#083B87;
+--color-blue:#01ACEE;
+--font-family:"Open Sans","Roboto",Arial,sans-serif;
+--finger-size:40px;
+--border-radius:3px;
+--color-soft-blue:#F1F6FF;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+body{
+    font-family: var(--font-family);
+}
+.Header{
+    border-bottom: 1px solid #ddd;
+    
+}
+.container{
+    max-width: var(--max-width);
+    margin-left: auto;
+    margin-right: auto;
+    
+    display: flex;
+    align-items: center;
+    height: 64px;
+}
+a{
+    color: var(--color-navy);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+.Header-menu{
+    margin-left: auto;
+    display: flex;
+}
+.Header-menu-switch{
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+    background-color: white;
+    border: 1px solid white;
+}
+.Header-menu-user{
+    margin-right:10px ;
+    display: flex;
+}
+.Header-menu-user a{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: var(--finger-size);
+}
+.Header-menu-user a:hover{
+    background: #deeaff;
+    border-radius: 20px;
+}
+.Header-menu-helper{
+    display: flex;
+    margin-left: 20px;
+}
+.Header-menu-helper select{
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid #E0E6F1;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--color-navy);
+    height: var(--finger-size);
+    border-radius: 0;
+}
+.Header-menu-helper select:nth-child(1){
+    border-bottom-left-radius: var(--border-radius);
+    border-top-left-radius:var(--border-radius) ;
+}
+.Header-menu-helper select:nth-child(2){
+    border-left-width:0 ;
+    border-bottom-right-radius: var(--border-radius);
+    border-top-right-radius:var(--border-radius) ;
+}
+.Header-logo img{
+    width: 144px;
+    
+} 
+.button{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: var(--finger-size);
+    background-color: var(--color-blue);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+}
+
+
+
+
+
+
+
+
+
